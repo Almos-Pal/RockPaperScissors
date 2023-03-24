@@ -1,0 +1,16 @@
+﻿<Window x:Class="RockPaperScissors.StatsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RockPaperScissors"
+        mc:Ignorable="d"
+        Title="StatsWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock Name="Stats" FontSize="18" Margin="0,10,0,0" TextAlignment="Center"/>
+
+        <Button Content="New Game" Click="MainWindow" HorizontalAlignment="Center" Margin="0,266,0,0" VerticalAlignment="Top" Width="75"/>
+
+
+    </Grid>
+</Window>
